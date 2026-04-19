@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Andrix - Сайт</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <style>
+          @font-face {
+              font-family: Classic;
+              src: url("17796.ttf");
+          }
+          
+          nav.navbar, h1, .classic, b {
+              font-family: Classic;
+          }
+          
+          .classic {
+              text-align: center;
+          }
+          
+          img.selfie {
+              float: left;
+              margin-right: 10px;
+          }
+          
+          mark.subscribe {
+              background-color: #C00;
+              color: white;
+              padding: 5px;
+              border-radius: 0.5 em;
+          }
+      </style>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="logo.svg" />
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">
+            Главная
+          </a>
+
+          <a class="navbar-item" href="games.html">
+            Игры
+          </a>
+            
+          <a class="navbar-item" href="news.html">
+            Новости
+          </a>
+        </div>
+      </div>
+    </nav>
+    <section class="hero is-link">
+      <div class="hero-body">
+        <div class="title classic">Главная страница</div>
+      </div>
+    </section>
+    <section class="section">
+        <img src="selfie.png" alt="Cелфи" class="selfie" width="200" height="100" />
+        <h1 class="title">Всем привет!</h1>
+        <p>
+            Вы попали на сайт к <strong>Andrix</strong>!
+            <br />
+            Тут вы узнаете обо мне, увидите новости и поиграете в игры моего канала и не только!!!
+        </p>
+    </section>
+    <h1 class="title has-text-centered">Афанасьев Андрей Александрович</h1>
+    <section class="section">
+        <h1 class="title has-text-centered">Соц-сети</h1>
+        <div class="buttons is-centered">
+            <a class="button is-link" href="https://vk.com/andrix_2000"><img src="icons/vk.svg" width="24" height="24" style="margin-right: 5px;">Сообщество ВК</a>
+            <a class="button is-link" href="https://vk.com/worldcompotml"><img src="icons/vk.svg" width="24" height="24" style="margin-right: 5px;">Я в ВК</a>
+            <a class="button is-primary" href="https://t.me/HistoryAndreyAfanasev"><img src="icons/tg.svg" width="24" height="24" style="margin-right: 5px;">ТГК "Истории Андрея"</a>
+        </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Автор</strong>: Андрей Афанасьев
+            <br />
+          <strong>Создал сайт</strong>: Владимир Савицкий
+            <br />
+          <strong>Сотрудничество</strong>: <a href="mailto:supcompotml@ya.ru">supcompotml@ya.ru </a>
+            <br />
+            <br />
+            <a href="https://vk.com/andrix_2000"><mark class="subscribe">Подпишись!</mark></a>
+        </p>
+      </div>
+    </footer>
+</body>
+</html>
